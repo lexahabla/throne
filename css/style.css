@@ -1,0 +1,96 @@
+body, html { width:100%; height: 100%}
+
+body { font-family: 'Raleway', sans-serif; margin:0; padding:0}
+
+.container{display: flex; flex-wrap: wrap}
+
+div[class*="item-1"]{width: 100%;height: 100px}
+
+div[class*="logo"]{background-image: url("../img/logo.png");width: 155px;height: 50px; margin:50px 0px 0px 68px;
+display: flex}
+
+header{height:100px; display:flex}
+
+div[class*="menu"]{  float: right}
+
+nav {display:flex; height: 100px}
+
+nav > ul { display: flex; list-style: none; margin-top:0px; height: 120px; padding-left: 50px }
+
+ul > li > a{ text-decoration: none; color: #999999 }
+
+ul > li {margin:50px 20px 20px 20px;  font-size:12px;display: flex; align-items: center; color: #999999}
+
+li + ul {display: none}
+
+div[class*="button-head"] {width: 200px; height:50px; display: flex; margin:50px 0px 0px 35px} 
+
+.share{ background-image: url("../img/share.png");width: 50px; height: 50px}
+
+.search { background-image: url("../img/search.png");width: 50px; height: 50px; margin-left: 10px}
+
+.buy {background-image: url("../img/buy.png");width: 50px; height: 50px; margin-left: 10px; border:solid 2px #999999; 
+box-sizing: border-box; position: relative; z-index: 1}
+
+.buy-count { background-color: #999999; color: #ffffff; width: 20px; height: 20px; border-radius: 2ch; 
+text-align: center; font-size: 8px;  display: flex; justify-content: center; align-content: center; 
+flex-direction: column; position:absolute; right: 70px; top: 40px; z-index: 2}
+
+div[class*="item-2"]{width: 100%}   
+
+main {display: flex}
+
+div[class="title"]{margin:75px 0px 0px 68px; width: 60%; height:168px} 
+
+div[class="title"] > h2 {letter-spacing: 2px}
+
+div[class="title"] > p { letter-spacing: 3px; color:  #999999}
+
+div[class="title"] > input {background-color: #eb2227; border:0; width: 94px; height:27px; font-size: 11px;color:white;
+text-align: center} 
+
+div[class="filter"]  {width: 45%; margin:75px 30px 0px 0px; float: right; }
+
+div[class="filter"] > p { padding: 108px 0px 0px 130px; display: flex; align-items:bottom; font-size: 14px;color: #999999}
+
+div[class="filter"] > p > span {color: #eb2227; font-size: 12px}
+
+div[class="filter"] > p > a {margin-left:10px; font-size: 12px; color: #999999; text-decoration: none}
+
+div[class="product"] {  display: flex; padding: 0px 10px 0px 10px}
+
+div[class="column"] {width: 420px; height:420px;  background-color: white; margin: 0px 10px 0px 10px}
+
+div[class="item-1"]{background-image: url("../img/desktop.png"); width:420px; height :200px;margin: 0px 0px 20px 0px}
+
+div[class="item-2"] {background-image: url("../img/bike.png");  width:420px; height :200px}
+
+div[class="item-3"] {background-image: url("../img/teaTime.png");  width:420px; height :420px}
+
+div[class="column-2"] {width: 200px; height:200;  background-color: white;  margin: 0px 10px 0px 10px}
+
+div[class="item-4"] {background-image: url("../img/rarForniture.png");  width:200; height :200px;margin: 0px 0px 20px 0px}
+
+div[class="item-5"] {background-image: url("../img/NoIdea.png");  width:200px; height :200px}
+
+div[class="column-3"] {width: 200; height:420px;  background-color: white; margin: 0px 10px 0px 10px}
+
+div[class="item-6"] {background-image: url("../img/Light.png");  width:200px; height :420px}
+
+div[class="item-7"] {background-image: url("../img/bike2.png");  width:420; height :200px}
+
+div[class="item-8"] {background-image: url("../img/speaker.png");  width:420; height :200px}
+
+.footer{ width: 100%; height:200px;display: flex }
+
+.left { font-size: 12px;margin-left: 100px; padding:85px 0px 75px 0px; vertical-align: middle;}
+
+.right { font-size: 12px;margin-left: 420px; padding:85px 0px 120px 0px; float: right}
+
+div[class="left"] > img  {margin-right:15px; vertical-align: -2px}
+
+
+
+
+
+
